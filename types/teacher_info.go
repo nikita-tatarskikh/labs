@@ -19,13 +19,13 @@ func GetTeachersInfo() TeachersInfo {
 		{
 			Name:        "Dmitry",
 			LastName:    "Popov",
-			ReviewSpeed: time.Second,
+			ReviewSpeed: 50 * time.Millisecond,
 			Probability: 0.75,
 		},
 		{
 			Name:        "Ivan",
 			LastName:    "Holopov",
-			ReviewSpeed: time.Second,
+			ReviewSpeed: 150 * time.Millisecond,
 			Probability: 0.65,
 		},
 	}

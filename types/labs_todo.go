@@ -25,11 +25,6 @@ func GetLabsTodo() LabsTodo {
 		},
 	}
 
-	//fmt.Printf("Labs:\n")
-	//for _, lab := range labs {
-	//	fmt.Printf("Lab: \"%d. %s\"\n", lab.Number, lab.Name)
-	//}
-
 	labsChan := make(chan Lab, len(labs))
 
 	for _, lab := range labs {

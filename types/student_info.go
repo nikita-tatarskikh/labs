@@ -18,17 +18,17 @@ func GetStudentsInfo() StudentsInfo {
 		{
 			Name:     "Nikita",
 			LastName: "Tatarskikh",
-			Speed:    5 * time.Second,
+			Speed:    time.Millisecond,
 		},
 		{
 			Name:     "Ivan",
 			LastName: "Virolainen",
-			Speed:    2 * time.Second,
+			Speed:    5 * time.Millisecond,
 		},
 		{
 			Name:     "Max",
 			LastName: "Stolyarov",
-			Speed:    3 * time.Second,
+			Speed:    30 * time.Millisecond,
 		},
 	}
 

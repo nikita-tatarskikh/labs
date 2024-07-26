@@ -20,8 +20,8 @@ type Teacher struct {
 }
 
 const (
-	rejectMessage = "Teacher %s %s rejected lab №%d. \"%s\" of student %s %s\n"
-	acceptMessage = "Teacher %s %s accepted lab №%d. \"%s\" of student %s %s\n"
+	rejectMessage = "Teacher %s %s rejected lab \"№%d. %s\" of student %s %s\n"
+	acceptMessage = "Teacher %s %s accepted lab \"№%d. %s\" of student %s %s\n"
 )
 
 type Teachers []Teacher
